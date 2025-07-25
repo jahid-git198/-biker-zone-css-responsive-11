@@ -1,6 +1,7 @@
-const menuid = document.getElementById("button-menu");
-const dropdown = document.getElementById("dropdown-menu");
+ const Clickbutton = document.getElementById('clickButton');
+  const navBar =document.querySelector('.nav');
 
-menuid.addEventListener("click", () => {
-  dropdown.classList.toggle("toggle");
-});
+  Clickbutton.addEventListener('click', () => {
+    
+       navBar.classList.toggle('showNav')
+  })
